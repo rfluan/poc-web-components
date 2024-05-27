@@ -1,0 +1,32 @@
+body {
+  padding: 2rem;
+}
+
+article {
+  max-width: 60rem;
+  margin: auto;
+}
+
+two-up {
+  overflow: hidden;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+two-up {
+  /* Color of the track & thumb */
+  --accent-colour: #777;
+  /* Or you can set the two independently: */
+  --track-color: white;
+  --thumb-color: black;
+  /* Background of the thumb */
+  --thumb-background: yellow;
+  /* Size of the thumb */
+  --thumb-size: 62px;
+  /* Thickness of the bar */
+  --bar-size: 6px;
+  /* Touch-thickness of the bar */
+  --bar-touch-size: 30px;
+}
